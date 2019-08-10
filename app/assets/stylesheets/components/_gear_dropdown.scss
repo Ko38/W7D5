@@ -1,0 +1,48 @@
+// Use the gear_dropdown.png screenshot as a style guide
+.hidden {
+  visibility: hidden;
+}
+.gear-dropdown {
+  display: flex;
+  // flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 10;
+  background-color: rgb(241, 247, 247);
+  top: 50px;
+  right: 114px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-block-style: 1px solid black;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09)
+}
+.gear-dropdown li:hover{
+  background-color: rgb(218, 209, 209);
+}
+
+.gear-dropdown div  {
+  width: 100%;
+  margin: 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.gear-dropdown div li a, .gear-dropdown div span {
+  border: none;
+  width: 100%;
+  color: gray;
+}
+
+.gear-dropdown div li:nth-last-child(2) a, .gear-dropdown div li:last-child a {
+  border-bottom: 1px solid blue;
+  color: blue;
+}
+
+.gear-dropdown span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.gear-dropdown div li:nth-last-child(4) {
+  border-bottom: 1px solid rgb(85, 84, 84);
+
+}

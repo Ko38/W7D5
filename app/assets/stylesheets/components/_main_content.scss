@@ -1,0 +1,45 @@
+.col-1 a{
+  color: blue;
+  border-bottom: 1px solid blue; 
+}
+
+.col-1 .left-title {
+  font-size: 30px;
+  color: black;
+  border-bottom: 1px solid black; 
+}
+
+.author {
+  color: rgb(162, 154, 154);
+}
+
+.col-1 li {
+  list-style: disc;
+  padding-left: 12px;
+  
+}
+
+.sign-up-span {
+  display: flex;
+}
+
+
+.sign-up-container {
+  flex: 1;
+  background-color: lightgray;
+}
+
+.signupbutton {
+
+  background-color: #6172d0; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px 10px 10px 10px ;
+
+  // text-align: center;
+  // text-decoration: none;
+  // display: inline-block;
+  // font-size: 16px;
+}

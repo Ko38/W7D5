@@ -1,0 +1,108 @@
+// .col {
+//   // ...
+//   float:left;
+//   // box-sizing: border-box;
+
+// }
+
+// .col-1 {
+//  grid-column: 1;
+//  grid-row: 1/3;
+
+// }
+// .col-2-1 {
+//   grid-column: 2/4;
+//   grid-row: 1/2
+// }
+// .col-2-2 {
+//   grid-column: 2/4;
+//   grid-row: 2/3
+// }
+
+// .col-3 {
+//   grid-column: 4;
+//   grid-row: 1/3
+// }
+// .parent {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr 1fr;
+//   grid-template-rows: 1fr 1fr;
+
+
+// }
+
+
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-1 {
+
+width: 90%
+}
+.col-2 {
+width: 90%
+}
+// .col-2-2 {
+// width
+// }
+
+.col-3 {
+  display: flex;
+  flex-direction: column;
+ width: 90;
+
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+}
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+[class*='col-'] {
+  // ...
+}
+
+[class*='col-']:last-of-type {
+  // ...
+}
+
+// @media all and (max-width: 500px)  {
+//   [class*='col-'] .parent {
+//     //width: 100%;
+//     background-color: blue;
+//   grid-template-columns: 1fr;
+
+//   }
+// }
+
+.video {
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .parent {
+    // display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.inner_parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section section ul li {
+  font-weight: bold;
+  list-style: disc;
+}

@@ -1,0 +1,13 @@
+.section-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section-nav li:hover {
+  background-color: rgb(235, 219, 219);
+}
+
+.section-nav :last-child{
+  border-bottom: 1px solid black;
+}
